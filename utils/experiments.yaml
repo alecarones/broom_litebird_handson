@@ -1,0 +1,14 @@
+LiteBIRD_PTEP:
+  frequency:  [40.0,    50.0,   60.0,   68.0,   68.0,   78.0,   78.0,   89.0,   89.0,   100.0,   100.0,  119.0,  119.0,  140.0,  140.0,  166.0,  195.0,  195.0,  235.0,  280.0,  337.0,  402.0]
+  depth_I:    [37.42,    33.46,     21.31,   19.91,   31.77,   15.55,   19.13,    12.28,    28.77,    10.34,    8.48,    7.69,    5.70,   7.25,   6.38, 5.57, 7.05, 10.50, 10.79, 13.80, 21.95, 47.45]  
+  depth_P:    [37.42,    33.46,     21.31,   19.91,   31.77,   15.55,   19.13,    12.28,    28.77,    10.34,    8.48,    7.69,    5.70,   7.25,   6.38, 5.57, 7.05, 10.50, 10.79, 13.80, 21.95, 47.45]
+  fwhm:       [70.5,    58.5,   51.1,   41.6,   47.1,   36.9,   43.8,   33.0,   41.5,   30.2,   37.8,   26.3,   33.6,   23.7,   30.8, 28.9, 28.0, 28.6, 24.7, 22.5, 20.9, 17.9]
+  bandwidth:  [0.3,     0.3,    0.23,   0.23,   0.23,   0.23,   0.23,   0.23,   0.23,   0.23,   0.23,   0.3,   0.3,    0.3,   0.3,    0.3,    0.3,   0.3,    0.3,    0.3,    0.3,    0.23]
+# Nature of input beams. Used to generate simulations and to bring maps to a common resolution before compsep.
+# If "file_l" or "file_lm" is chosen, the beams are loaded from 'beams_TEB_{frequency}GHz.fits' file in inputs_path/beams/{experiment} directory.
+# Default: "gaussian".
+  beams: "gaussian" # "gaussian", "file_l" (symmetric but not gaussian beams), "file_lm" (asymmetric beams)
+# Path to read the beams if input_beams is not "guassian."
+  path_beams: ""
+
+
