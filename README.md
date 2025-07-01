@@ -1,2 +1,3 @@
 # broom_litebird_handson
-LiteBIRD hands-on tutorial on broom
+
+Tutorial on **broom** package for the LiteBIRD hands-on 2025
